@@ -7,7 +7,7 @@ const router = express.Router();
 router.use(
     cors({
         credentials: true,
-        origin: 'https://stupendous-torrone-c85e13.netlify.app',
+        origin: 'https://6692b4754b9eb45c20f31b6e--stupendous-torrone-c85e13.netlify.app/',
     })
 );
 
