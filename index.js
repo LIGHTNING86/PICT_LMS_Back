@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopol
 // Middleware
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173',
+    origin: 'https://stupendous-torrone-c85e13.netlify.app',
 }));
 app.use(express.json());
 app.use(cookieParser());
