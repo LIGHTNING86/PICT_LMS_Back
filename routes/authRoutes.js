@@ -7,7 +7,7 @@ const router = express.Router();
 router.use(
     cors({
         credentials: true,
-        origin: 'http://localhost:5173',
+        origin: 'https://stupendous-torrone-c85e13.netlify.app',
     })
 );
 
